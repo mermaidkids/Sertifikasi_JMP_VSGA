@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtViewInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi E learning digunakan untuk pendataan siswa. Pengguna dapat melakukan input, edit, dan menghapus data yang sudah ada."
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtViewInfoo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note : Saat update data maka harus kembali ke dashboard dulu dan tekan lihat data untuk melihat hasilnya"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
